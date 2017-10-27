@@ -12,7 +12,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var app = (0, _express2.default)();
 
-var port = 3000;
+var port = 8080;
 
 // 경로 '/' 로 들어오는 요청들은 public 폴더로 정적 라우팅합니다.
 app.use('/', _express2.default.static(__dirname + '/../public'));
